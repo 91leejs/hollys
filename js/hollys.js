@@ -14,4 +14,8 @@ $(function(){
         arrows:false,
         adaptiveHeight:true,
     })//move slick
+
+    $(".close").click(function(){
+        $(".pop_up").hide();
+    })
 })//jQuery
